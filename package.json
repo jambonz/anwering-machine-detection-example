@@ -1,0 +1,20 @@
+{
+  "name": "anwering-machine-detection-example",
+  "version": "0.0.1",
+  "description": "jambonz websocket application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "jslint": "eslint app.js lib"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@jambonz/node-client-ws": "^0.1.51",
+    "pino": "^9.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^9.9.0",
+    "eslint-plugin-promise": "^7.1.0"
+  }
+}
