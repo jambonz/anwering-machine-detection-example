@@ -47,3 +47,5 @@ This is a very simple application, designed to illustrate amd and to provide cod
 
 An outbound call is placed to the number provided in the POST request, and when the far answers the application plays a long-ish greeting while at the same time trying to determine if it is speaking to a human or a bot.  Once it determines which it is speaking to, it then switches to a different message based on whether it detected a human or a machine.
 
+The relevant code for those interested [can be found here](./lib/routes/amd-test.js).
+
