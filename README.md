@@ -43,5 +43,7 @@ but the following environment variables are available
 
 
 ## How this application works
-This is a very simple application, designed to illustrate amd and to provide code that you use in your own applications.  An outbound call is placed to the number provided in the POST request, and when the far answers the application plays a long-ish greeting while at the same time trying to determine if it is speaking to a human or a bot.  Once it determines which it is speaking to, it then switches to a different message based on whether it detected a human or a machine.
+This is a very simple application, designed to illustrate amd and to provide code that you can use in your own applications.  
+
+An outbound call is placed to the number provided in the POST request, and when the far answers the application plays a long-ish greeting while at the same time trying to determine if it is speaking to a human or a bot.  Once it determines which it is speaking to, it then switches to a different message based on whether it detected a human or a machine.
 
